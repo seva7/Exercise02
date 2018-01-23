@@ -18,11 +18,11 @@ $(document).ready(function () {
     });
   });
   $('img').on('mouseover',function () {
-    var a = Math.random() * 100;
-    var b = Math.random() * 100;
+    var a = Math.random() * 200;
+    var b = Math.random() * 800;
     $(this).animate({
       top: a,
       left: b,
-    },500);
+    },1000);
   });
 });
