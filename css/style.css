@@ -8,78 +8,13 @@ Some description of the CSS styling
 
 */
 
-body {
 
-}
-.l1 {
-  position: relative;
-  top: 0;
-  left: 0;
-
+#wrapper {
+  /* width: 10%; */
 }
 
-.l2 {
+img {
   position: absolute;
-  padding-left: 60px;
-  padding-top: 100px;
-
-}
-.l3 {
-  position: absolute;
-  padding-left: 20px;
-  padding-top: 30px;
-
-}
-
-.l4 {
-  position: absolute;
-
-}
-.l5 {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-}
-
-.l6 {
-  position: absolute;
-  top: 0.2;
-  left: 0.2;
-
-}
-
-.t1 {
-  position: absolute;
-  top: 200px;
-  left: 1;
-
-}
-
-.t7 {
-  position: absolute;
-  top: 500px;
-  left: 900px;
-
-}
-
-.t3 {
-  position: absolute;
-  top: 800px;
-  left: 200px;
-
-}
-
-.t7_2 {
-  position: absolute;
-  top: 1200px;
-  left: 550px;
-
-}
-
-.float_text {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-
+  width: auto;
+  height: auto;
 }
