@@ -20,9 +20,10 @@ $(document).ready(function () {
   $('img').on('mouseover',function () {
     var a = Math.random() * 200;
     var b = Math.random() * 800;
+    var duration = Math.random() * 3000;
     $(this).animate({
       top: a,
       left: b,
-    },1000);
+    },duration);
   });
 });
